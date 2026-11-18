@@ -51,3 +51,5 @@
     faq.append(el('div', { class: 'faq-item' }, el('h3', null, btn), panel));
   });
 })();
+// Cards above are injected after core.js ran initReveal(), so observe them now.
+window.Lumina.initReveal();
